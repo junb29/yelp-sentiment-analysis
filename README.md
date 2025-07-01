@@ -52,11 +52,10 @@ This project predicts the sentiment of Yelp reviews for over 3,000 Asian restaur
 - **Macro F1-score:** ~97%
 - **Evaluation:** Confusion matrix, classification report
 
-* Both models use 20% of the entire dataset as test dataset (100,000 reviews)
-
-* Precision indicates how many were actually correct within all predicted positives/negatives
-
-* Recall indicates how many were correctly predicted within actual positives/negatives
+**Note:**
+   - Both models use 20% of the entire dataset as test dataset (100,000 reviews)
+   - Precision indicates how many were actually correct within all predicted positives/negatives
+   - Recall indicates how many were correctly predicted within actual positives/negatives
 
 ### Misclassification Examples from Transformer Model
 
