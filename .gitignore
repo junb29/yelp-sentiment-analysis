@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+venv/
+
+# Ignore model checkpoints
+models/distilbert-sentiment/checkpoint-*/
+
+# Ignore raw and processed data
+data/raw/
+data/processed/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
