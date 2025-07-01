@@ -52,21 +52,24 @@ This project predicts the sentiment of Yelp reviews for over 3,000 Asian restaur
 - **Macro F1-score:** ~97%
 - **Evaluation:** Confusion matrix, classification report
 
-Both models use 20% of the entire dataset as test dataset (100,000 reviews)
+* Both models use 20% of the entire dataset as test dataset (100,000 reviews)
 
-Precision indicates how many were actually correct within all predicted positives/negatives
+* Precision indicates how many were actually correct within all predicted positives/negatives
 
-Recall indicates how many were correctly predicted within actual positives/negatives
+* Recall indicates how many were correctly predicted within actual positives/negatives
 
 ### Misclassification Examples from Transformer Model
 
 - **Misclassification:** Negative reivew but the model predicted positive
+
 Review: love green mint if you love cilantro you will love the sandwich topped with an egg its the best fresh ingredients and delicious edit i dont know if there are new owners but this place has changed and not for the better the place is looking run down and dirty paint is chipping off the walls menu board is rewritten and shows a whole new drink menu seems their focus has shifted to a drink place some new menu items are available and i ordered the bao which tastes weird wish it would go back to the old place lack of freshness and attention to detail
 
 - **Misclassification:** Negative reivew but the model predicted positive
+
 Review: the lady and i decided to eat here with friends for the restaurant week menu and had a pretty enjoyable time overall i started off with the sopa azteca and she got the queso fundido both of which were pretty excellent appetizers i particularly enjoyed the blue corn tortilla chip strips that they poured my soup over since it offered a fun and crunchy world of taste my ceviche de salmon that came after that was well done too and i could tell it was all very fresh not a huge fan of foam in general but i didnt mind the corn foam the main course was the only real issue with my experience since i ordered the stuffed poblano pepper with ground beef and a creamy sauce it was delicious but as far as entrees are concerned i could have had three times their portion and still would have not been full the tres leches dessert saved it all though it was way better than ones ive had before and thats saying a lot the atmosphere could have been a little darker for being a pretty small dining area but no glaring complaints here
 
 - **Misclassification:** Positive reivew but the model predicted negative
+
 Review: food good not delicious and mouth watering like some people expect cmon its a takeout if you want that then go somewhere else duh delivery never over an hour but common sense folks if its a rainy friday night when everyones home netflixing and chilling dont expect your food in minutes even if they say minutes fry yourselves some eggs if you want quick service overall i like it here tho their terayki isnt the best so i stick with sushi this is one of my spots when i dont feel like cooking and dont feel like eating greasy shitty mcdonalds food
 
 ---
@@ -103,7 +106,7 @@ python scripts/label_reviews.py
 ```
 
 **Clean Reviews:**
-```bash
+```bash  
 python scripts/clean_reviews.py
 ```
 

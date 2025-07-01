@@ -10,8 +10,8 @@ venv/
 models/distilbert-sentiment/checkpoint-*/
 
 # Ignore raw and processed data
-data/raw/
-data/processed/
+data/raw/*.json
+data/processed/*.csv
 
 # Hugging Face cache
 ~/.cache/huggingface/
